@@ -61,4 +61,27 @@
     
   </entry>
   
+  <entry>
+    <title>实验报告</title>
+    <link href="http://example.com/2024/04/21/blog/"/>
+    <id>http://example.com/2024/04/21/blog/</id>
+    <published>2024-04-20T16:00:00.000Z</published>
+    <updated>2024-04-21T07:48:18.870Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>该博客用的是Hexo框架，基于Node.js，搭建博客首先需要有一个GitHub账号并且配置了SSH Keys</p><h4 id="1、创建GitHub仓库"><a href="#1、创建GitHub仓库" class="headerlink" title="1、创建GitHub仓库"></a>1、创建GitHub仓库</h4><p>在github中点击New repository创建一个名为hulelewin.github.io的仓库</p><h4 id="2、安装Git"><a href="#2、安装Git" class="headerlink" title="2、安装Git"></a>2、安装Git</h4><p>通过下载安装程序来安装<br>验证：执行git –version如果输出类似git version 版本号 说明安装成功</p><h4 id="3、安装Node-js"><a href="#3、安装Node-js" class="headerlink" title="3、安装Node.js"></a>3、安装Node.js</h4><p>通过HomeBrew来安装<br>brew install node</p><h4 id="4、安装Hexo"><a href="#4、安装Hexo" class="headerlink" title="4、安装Hexo"></a>4、安装Hexo</h4><p>1、首先需要创建一个用来存放Github本地仓库文件的目录<br>2、选中创建的目录(文件夹)右键选择使用Gti Bash Here打开Git命令窗口<br>3、输入命令：这里可能需要用到taobao网址进行安装<br>注：之后再次使用命令则是以cnpm开头~而不是npm<br>4、正式开始安装hexo：输入命令 cnpm install -g hexo-cli<br>5、初始化Hexo：hexo init<br>6、这时创建的文件夹下多出许多文件<br>7、启动hexo，本地浏览博客：<br>输入命令：hexo s<br>浏览器输入localhost:4000<br>关闭hexo ctrl + c</p><h4 id="5、设置ssh"><a href="#5、设置ssh" class="headerlink" title="5、设置ssh"></a>5、设置ssh</h4><p>1、生成sshkey<br>输入命令：cd ~&#x2F;.ssh进入.ssh文件<br>输入命令：ssh-keygen -t rsa -C ‘注册时的邮箱地址’<br>2、使用记事本打开id_rsa.put文件并复制生成的key<br>3、在已登陆的Github主页点击右侧头像 》 Settings设置<br>4、再点击SSH and GPG keys 》 New SSH key<br>5、将刚刚在.ssh目录下所复制id_rsa.put文件中的信息复制进key<br>6、本地进行验证：ssh -T <a href="mailto:&#103;&#105;&#x74;&#64;&#103;&#105;&#x74;&#104;&#x75;&#x62;&#46;&#99;&#111;&#x6d;">&#103;&#105;&#x74;&#64;&#103;&#105;&#x74;&#104;&#x75;&#x62;&#46;&#99;&#111;&#x6d;</a> 并且输入yes之后，行末尾会显示用户名<br>7、绑定成功</p><h2 id="上传博客"><a href="#上传博客" class="headerlink" title="上传博客"></a>上传博客</h2><p>1、用记事本打开并修改本地仓库目录下_config.yml文件<br>2、在文件的末尾修改(repository属性的地址就是之前创建仓库后所保存的http地址)<br>3、安装上传工具：cnpm install hexo-deployer-git<br>4、生成文件：hexo g<br>5、本地预览：hexo s浏览器输入：localhost:4000(ctrl + c 关闭)<br>6、部署到Github：hexo d</p><h2 id="从浏览器访问博客"><a href="#从浏览器访问博客" class="headerlink" title="从浏览器访问博客"></a>从浏览器访问博客</h2><p>浏览器输入用户名.github.io(Github仓库名)</p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h4 id="1、初始化Hexo-的时候报错"><a href="#1、初始化Hexo-的时候报错" class="headerlink" title="1、初始化Hexo 的时候报错"></a>1、初始化Hexo 的时候报错</h4><p>问题:FATAL E:\blog not empty, please run <code>hexo init</code> on an empty folder and then copy your files into it。</p><p>解决：如果当输入hexo init的时候出现这些，表示没有清空文件夹<br>删除blog下的所有文件，重新进行hexo init</p><h4 id="2、部署到Github的时候报错"><a href="#2、部署到Github的时候报错" class="headerlink" title="2、部署到Github的时候报错"></a>2、部署到Github的时候报错</h4><p>问题：ERROR Deployer not found: git<br>解决：重新安装git</p><h4 id="3、hexo本地测试运行重启后页面空白"><a href="#3、hexo本地测试运行重启后页面空白" class="headerlink" title="3、hexo本地测试运行重启后页面空白"></a>3、hexo本地测试运行重启后页面空白</h4><p>问题：WARN No layout: index.html<br>解决：（1）把主题文件放在theme文件夹下（2）此时在theme主题下保存文件夹的名称为：hexo-theme-next-0.4.0，修改为next（主题名称）</p><h4 id="4、使用github-io地址访问一直报404"><a href="#4、使用github-io地址访问一直报404" class="headerlink" title="4、使用github.io地址访问一直报404"></a>4、使用github.io地址访问一直报404</h4><p>解决：将原仓库名hulelewin.github.io后缀修改成hulele.github.com，等个几秒钟强刷<a href="https://hulelewin.github.io/%E5%9C%B0%E5%9D%80%EF%BC%8C%E5%B0%B1%E8%83%BD%E7%9C%8B%E5%88%B0%E7%BD%91%E7%AB%99%E6%AD%A3%E5%B8%B8%E6%98%BE%E7%A4%BA%E3%80%82">https://hulelewin.github.io/地址，就能看到网站正常显示。</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;该博客用的是Hexo框架，基于Node.js，搭建博客首先需要有一个GitHub账号并且配置了SSH Keys&lt;/p&gt;
+&lt;h</summary>
+      
+    
+    
+    
+    
+    <category term="报告" scheme="http://example.com/tags/%E6%8A%A5%E5%91%8A/"/>
+    
+  </entry>
+  
 </feed>
