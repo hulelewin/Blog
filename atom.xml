@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-04-21T06:22:39.396Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>民族弦乐</title>
+    <link href="http://example.com/2024/04/21/a/"/>
+    <id>http://example.com/2024/04/21/a/</id>
+    <published>2024-04-21T04:06:54.000Z</published>
+    <updated>2024-04-21T06:22:39.396Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hey"><a href="#Hey" class="headerlink" title="Hey"></a>Hey</h2><blockquote><p>这是我的第一篇博客。</p></blockquote><h2 id="二胡"><a href="#二胡" class="headerlink" title="二胡"></a>二胡</h2><blockquote><p>“马尾胡琴随汉东，曲声犹自怨单于。<br>弯弓莫射云中雁，归雁如今不寄出。”<br>              ——沈括《梦溪笔谈》</p></blockquote><h4 id="这是什么？"><a href="#这是什么？" class="headerlink" title="这是什么？"></a>这是什么？</h4><p>二胡是一种中国传统拉弦乐器，有两根弦组成。始于唐朝，称“奚琴”，至今已有一千多年的历史。是一种中国传统拉弦乐器。二胡，即二弦胡琴，又名“南胡”、“嗡子”，二胡是中华民族乐器家族中主要的弓弦乐器之一。</p><h4 id="构造有点意思的"><a href="#构造有点意思的" class="headerlink" title="构造有点意思的"></a>构造有点意思的</h4><p>二胡包括琴身(包括琴杆、琴筒、琴托、皮膜、音窗)、琴弦系统（包括琴弦、琴轴、千斤、琴码、音垫）和琴弓(包括弓鱼、弓杆、弓毛)。制琴师通常以木材制作二胡，如红木、小叶紫檀、乌木等。琴筒一端则会蒙以蛇皮，这也是二胡独特音色的来源。</p><h4 id="二胡曲-听过几首"><a href="#二胡曲-听过几首" class="headerlink" title="二胡曲 听过几首"></a>二胡曲 听过几首</h4><p>《二泉映月》、《良宵》<br>《听松》、《空山鸟语》<br>《寒春风曲》、《月夜》<br>《流波曲》、《病中吟》<br>《三宝佛》、《光明行》</p><h4 id="为什么有的二胡长的不一样？"><a href="#为什么有的二胡长的不一样？" class="headerlink" title="为什么有的二胡长的不一样？"></a>为什么有的二胡长的不一样？</h4><p>那是有二胡家族</p><h5 id="高胡"><a href="#高胡" class="headerlink" title="高胡"></a>高胡</h5><p>高胡是”高音二胡”的统称，是在二胡的基础上改制而成的。高胡的产生，和中国民间乐种广东音乐有着密切的联系。也同广东地区的粤剧有密切联系，曾作为粤剧伴奏的主奏乐器，因此，高胡也常被称为”粤胡”。<br>由于高胡是在二胡的基础上改革而成的，因此高胡的构造、制作以及用料都与二胡基本胡同。它的琴筒比二胡小，定音比二胡高四度，所以称作高胡。</p><h5 id="中胡"><a href="#中胡" class="headerlink" title="中胡"></a>中胡</h5><p>中胡，”中音二胡”的简称。中胡由二胡改革而成，琴杆比二胡的长，琴弦比二胡弦粗。中胡是民乐团中重要的中音乐器，在二胡的基础上改革制成。琴筒较二胡大，琴杆比二胡稍长，琴弦比二胡弦粗，音色浑厚。是民族管弦乐队不可缺少的乐器，常担负中音声部的演奏，亦可独奏或参加重奏。</p><h6 id="除了上面的这些，当然还有"><a href="#除了上面的这些，当然还有" class="headerlink" title="除了上面的这些，当然还有"></a>除了上面的这些，当然还有</h6><p>三胡、四胡、板胡、椰胡。。。。。。。神奇吧！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Hey&quot;&gt;&lt;a href=&quot;#Hey&quot; class=&quot;headerlink&quot; title=&quot;Hey&quot;&gt;&lt;/a&gt;Hey&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;二胡&quot;&gt;&lt;a href=&quot;#二胡</summary>
+      
+    
+    
+    
+    
+    <category term="乐器" scheme="http://example.com/tags/%E4%B9%90%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2024/04/21/hello-world/"/>
+    <id>http://example.com/2024/04/21/hello-world/</id>
+    <published>2024-04-20T17:10:14.645Z</published>
+    <updated>2024-04-20T17:10:14.645Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
